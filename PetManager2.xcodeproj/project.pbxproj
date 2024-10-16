@@ -6,8 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0EC27C372CC000110003C318 /* HorizonCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 0EC27C362CC000110003C318 /* HorizonCalendar */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		D30DC23D2CBF9A7B00085ED1 /* PetManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30DC23D2CBF9A7B00085ED1 /* PetManager2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetManager2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC27C372CC000110003C318 /* HorizonCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +45,7 @@
 		D30DC23E2CBF9A7B00085ED1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D30DC23D2CBF9A7B00085ED1 /* PetManager.app */,
+				D30DC23D2CBF9A7B00085ED1 /* PetManager2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +53,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D30DC23C2CBF9A7B00085ED1 /* PetManager */ = {
+		D30DC23C2CBF9A7B00085ED1 /* PetManager2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D30DC24B2CBF9A7C00085ED1 /* Build configuration list for PBXNativeTarget "PetManager" */;
+			buildConfigurationList = D30DC24B2CBF9A7C00085ED1 /* Build configuration list for PBXNativeTarget "PetManager2" */;
 			buildPhases = (
 				D30DC2392CBF9A7B00085ED1 /* Sources */,
 				D30DC23A2CBF9A7B00085ED1 /* Frameworks */,
@@ -63,11 +68,12 @@
 			fileSystemSynchronizedGroups = (
 				D30DC23F2CBF9A7B00085ED1 /* PetManager */,
 			);
-			name = PetManager;
+			name = PetManager2;
 			packageProductDependencies = (
+				0EC27C362CC000110003C318 /* HorizonCalendar */,
 			);
 			productName = PetManager;
-			productReference = D30DC23D2CBF9A7B00085ED1 /* PetManager.app */;
+			productReference = D30DC23D2CBF9A7B00085ED1 /* PetManager2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +91,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D30DC2382CBF9A7B00085ED1 /* Build configuration list for PBXProject "PetManager" */;
+			buildConfigurationList = D30DC2382CBF9A7B00085ED1 /* Build configuration list for PBXProject "PetManager2" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -94,12 +100,15 @@
 			);
 			mainGroup = D30DC2342CBF9A7B00085ED1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0EC27C352CC000110003C318 /* XCRemoteSwiftPackageReference "HorizonCalendar" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D30DC23E2CBF9A7B00085ED1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D30DC23C2CBF9A7B00085ED1 /* PetManager */,
+				D30DC23C2CBF9A7B00085ED1 /* PetManager2 */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +261,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PetManager/Preview Content\"";
+				DEVELOPMENT_TEAM = RS976WXGSN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,6 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PetManager/Preview Content\"";
+				DEVELOPMENT_TEAM = RS976WXGSN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -303,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D30DC2382CBF9A7B00085ED1 /* Build configuration list for PBXProject "PetManager" */ = {
+		D30DC2382CBF9A7B00085ED1 /* Build configuration list for PBXProject "PetManager2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D30DC2492CBF9A7C00085ED1 /* Debug */,
@@ -312,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D30DC24B2CBF9A7C00085ED1 /* Build configuration list for PBXNativeTarget "PetManager" */ = {
+		D30DC24B2CBF9A7C00085ED1 /* Build configuration list for PBXNativeTarget "PetManager2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D30DC24C2CBF9A7C00085ED1 /* Debug */,
@@ -322,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0EC27C352CC000110003C318 /* XCRemoteSwiftPackageReference "HorizonCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/HorizonCalendar";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0EC27C362CC000110003C318 /* HorizonCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EC27C352CC000110003C318 /* XCRemoteSwiftPackageReference "HorizonCalendar" */;
+			productName = HorizonCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D30DC2352CBF9A7B00085ED1 /* Project object */;
 }
